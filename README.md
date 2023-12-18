@@ -2,14 +2,9 @@
 
 The goal of this project is to create a test product for the subscribers of The Cheese Wheel (TCW), a local cheese subscription business based in Wellington. Check out their website here: https://thecheesewheel.co.nz/.
 
-Here we have the bones of a basic app with CRUD functionality. As it stands, a user is able to record cheeses, add a rating & comment, update their cheeses, and delete them from the database. But there's room for improvement! The team at The Cheese Wheel are keen to develop a test product for their clients that has the following functionality:
+Here we have the bones of a basic app with CRUD functionality. As it stands, a user is able to view a list of cheeses from the database, but there is room for improvement!
 
 ### MVP
-
-Authentication
-
-- Create a registration and login page.
-- Ensure that only authenticated users can perform CRUD operations (add/delete/update cheeses).
 
 Search and Filtering
 
@@ -19,9 +14,16 @@ UI
 
 - Design an accessible and polished UI using brand pallette guide from The Cheese Wheel and Figma.
 - Let users save their favourite cheeses to their profile.
-- Allow users to post comments/ratings on their favourite cheeses.
+- Allow users to post and update comments/ratings on their favourite cheeses.
 
 ### Stretch
+
+Authentication
+
+- Create a registration and login page.
+- Ensure that only authenticated users can perform CRUD operations (add/delete/update cheeses).
+
+Other
 
 - Assign a unique QR code for each cheese, so that a user can scan a code and find the respective cheese in the database.
 - Allow the user to upload a photos of their favourite cheeses.
