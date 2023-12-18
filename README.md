@@ -1,4 +1,4 @@
-# The Cheese Wheel
+# Cheese Wheel Project
 
 The goal of this project is to create a test product for the subscribers of The Cheese Wheel (TCW), a local cheese subscription business based in Wellington. Check out their website here: https://thecheesewheel.co.nz/.
 
