@@ -1,16 +1,15 @@
-import { useFruits } from '../hooks/useFruits.ts'
+//App.tsx
+import CheeseList from './CheeseList'
+import AddCheese from './AddCheese'
 
-function App() {
-  const { data } = useFruits()
-
+export default function App() {
   return (
     <>
-      <div className="app">
+      <header className="header">
         <h1>Havarti Your Say</h1>
-        <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul>
-      </div>
+      </header>
+      <CheeseList />
+      <AddCheese />
     </>
   )
 }
-
-export default App
