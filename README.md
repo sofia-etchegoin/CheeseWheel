@@ -49,35 +49,6 @@ Other
 
 ## Documentation
 
-### Roles
-
-- Scrum Facilitator
-- Git Keeper
-- Vibes Watcher
-- Product Owner
-
-### KANBAN workflow:
-
-- Use the GitHub KANBAN to assign yourself a task, post comments in the tickets to describe what needs to be done/what you are working on.
-- Move the tickets along the KANBAN as you progress.
-
-### Git workflow:
-
-main -> dev -> version branch for each sprint (e.g. 'V1' for the first sprint) -> feature branches
-
-- When you're ready to commit new changes, first commit to your feature branch and create a pull request to the current version branch (e.g. V1).
-- At the end of each sprint, there will be a review process before committing new features to dev.
-
-Make sure that:
-
-- file and function naming conventions are maintained across the app
-- errors are well handled
-- no sensitive data should be exposed on the client side
-- it passes npm run lint without any code-related warnings or errors
-- no unnecessary comments or log messages are remaining
-- that Types are used where applicable, and any Type issues should be resolved
-- user-facing updates (front end/ css crew) should be checked for accessibility concerns (using the WAVE tool)
-
 ## Naming conventions
 
 | STACK LAYER | FILE/FOLDER NAME  | FUNCTION NAME   |
